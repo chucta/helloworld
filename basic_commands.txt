@@ -9,3 +9,19 @@ git commit -m "message".  //still on computer
 git push       //push to the server
 
 git pull       //command for ur team who want the modified code of yours
+
+-----------
+there is an existing account on computer
+error code: 
+jake:helloworld chucta$ git push
+remote: Permission to chucta/helloworld.git denied to tut173379.
+fatal: unable to access 'https://github.com/chucta/helloworld.git/': The requested URL returned error: 403
+
+solution: 
+git remote set-url origin https://USERNAME@github.com/USERNAME/PROJECTNAME.git
+
+To ensure that the commits appear as performed by USERNAME, one can setup the user.name and user.email for this project, too:
+
+git config user.name USERNAME
+git config user.email USERNAME@example.com
+
