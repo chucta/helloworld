@@ -25,3 +25,6 @@ To ensure that the commits appear as performed by USERNAME, one can setup the us
 git config user.name USERNAME
 git config user.email USERNAME@example.com
 
+------------
+more info:
+https://guides.github.com/activities/hello-world/
