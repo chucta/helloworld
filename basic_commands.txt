@@ -28,3 +28,18 @@ git config user.email USERNAME@example.com
 ------------
 more info:
 https://guides.github.com/activities/hello-world/
+
+
+
+fork: karn copy repo khon eun mar sai account tua eng vela yark dai repo kh. karn fork ja copy mar sai account hao pen repo khorng hao eng, vela hao edit y ka br pai mess kap repo khorng jao khorng derm.
+
+----------
+To change locally for just one repository, enter in terminal, from within the repository
+
+git config credential.username "new_username"
+
+To change globally use
+
+git config credential.username --global "new_username"
+
+
