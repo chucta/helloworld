@@ -1,0 +1,11 @@
+git clone [url]
+
+git status
+
+git add [file]   
+
+git commit -m "message".  //still on computer
+
+git push       //push to the server
+
+git pull       //command for ur team who want the modified code of yours
